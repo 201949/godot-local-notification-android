@@ -4,7 +4,7 @@ Modified version of the Godot Local Notification plugin for Android from DrMoria
 
 ## Usage
 
-Add wrapper `scripts/localnotification.gd` into autoloading list in your project. So you can use it everywhere in your code.
+Add wrapper `scripts/LN.gd` into autoloading list in your project. So you can use it everywhere in your code. Configure the script parameters as you wish.
 
 ## API
 
