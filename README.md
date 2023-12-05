@@ -9,8 +9,8 @@ The original functions of the plugin was not changed, but the functions of calli
 There is nothing complicated. In your game code, simply call the desired function and pass the icons, text and color you need to it.
 
 1 Add the plugin itself to the plugins folder.
-2 Enable plugin in export
-3 Give the plugin the necessary permissions (in the export menu) - android.permission.SCHEDULE_EXACT_ALARM android.permission.USE_EXACT_ALARM android.permission.POST_NOTIFICATIONS
+2 Enable plugin in export.
+3 Give the plugin the necessary permissions (in the export menu) - android.permission.SCHEDULE_EXACT_ALARM android.permission.USE_EXACT_ALARM android.permission.POST_NOTIFICATIONS.
 4 Add all the necessary icons to the mipmap (folder) small icon 96x96 large 256x256
 
 The text of your notification. 
