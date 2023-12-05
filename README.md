@@ -5,7 +5,7 @@ Modified version of the Godot Local Notification plugin for Android from DrMoria
 ## Usage
 
 Add wrapper `scripts/LN.gd` into autoloading list in your project. So you can use it everywhere in your code. Configure the script parameters as you wish.
-The original functions of the plugin was not changed, but the functions of calling notifications was modified.
+The other functions of the plugin was not changed, but the functions of calling notifications was modified.
 There is nothing complicated. In your game code, simply call the desired function and pass the icons, text and color you need to it.
 
 1. Add the plugin itself to the plugins folder.
@@ -18,11 +18,11 @@ For a more aesthetically pleasing notification, the long text was disabled.
 
 ## API
 
-### showLocalNotification(message: String, title: String, interval: float, tag: int)
+### showLocalNotification(message: String, title: String, interval: float, tag: int, smallIconName: String, LargeIconName: String, summaryText: String, colorImage: String)
 
 Show notification with `title` and `message` after delay of `interval` seconds with `tag`. You can override notification by it's tag before it was fired.
 
-### showRepeatingNotification(message: String, title: String, interval: float, tag: int, repeat_duration: int)
+### showRepeatingNotification(message: String, title: String, interval: float, tag: int, repeat_duration: int, smallIconName: String, LargeIconName: String, summaryText: String, colorImage: String)
 Show notification with `title` and `message` after delay of `interval` seconds with `tag`. You can override notification by it's tag before it was fired.
 `repeating_interval` the notification will be fired in a loop until you cancelled it.
 
