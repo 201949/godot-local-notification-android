@@ -20,10 +20,10 @@ For a more aesthetically pleasing notification, the long text was disabled.
 
 ### showLocalNotification(message: String, title: String, interval: float, tag: int, smallIconName: String, LargeIconName: String, summaryText: String, colorImage: String)
 
-Show notification with `title` and `message` after delay of `interval` seconds with `tag`. You can override notification by it's tag before it was fired.
+Show notification with `title` and `message` after delay of `interval` seconds with `tag`. You can override notification by it's tag before it was fired. You can change notification icons and color. The color string format is `#RRGGBB`.
 
 ### showRepeatingNotification(message: String, title: String, interval: float, tag: int, repeat_duration: int, smallIconName: String, LargeIconName: String, summaryText: String, colorImage: String)
-Show notification with `title` and `message` after delay of `interval` seconds with `tag`. You can override notification by it's tag before it was fired.
+Show notification with `title` and `message` after delay of `interval` seconds with `tag`. You can override notification by it's tag before it was fired. You can change notification icons and color. The color string format is `#RRGGBB`.
 `repeating_interval` the notification will be fired in a loop until you cancelled it.
 
 
