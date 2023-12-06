@@ -1,6 +1,6 @@
 # godot-local-notification-android
 Modified version of the Godot Local Notification plugin for Android from DrMoriarty
-
+Author of modification hojlucas (https://github.com/hojlucas)
 
 ## Usage
 
