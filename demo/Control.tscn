@@ -1,0 +1,31 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Control.gd" type="Script" id=1]
+
+[node name="Control" type="Control"]
+script = ExtResource( 1 )
+
+[node name="Button" type="Button" parent="."]
+margin_left = 240.0
+margin_top = 400.0
+margin_right = 368.0
+margin_bottom = 440.0
+text = "Notify Once"
+
+[node name="Button2" type="Button" parent="."]
+margin_left = 240.0
+margin_top = 464.0
+margin_right = 368.0
+margin_bottom = 504.0
+text = "Notify Repeat"
+
+[node name="Button3" type="Button" parent="."]
+margin_left = 240.0
+margin_top = 528.0
+margin_right = 368.0
+margin_bottom = 568.0
+text = "Test Show"
+
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_Button2_pressed"]
+[connection signal="pressed" from="Button3" to="." method="_on_Button3_pressed"]
