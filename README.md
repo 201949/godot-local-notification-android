@@ -18,6 +18,10 @@ There is nothing complicated. In your game code, simply call the desired functio
 The text of your notification. 
 For a more aesthetically pleasing notification, the long text was disabled.
 
+## An example of displaying different types of notifications using the plugin:
+
+![image](https://raw.githubusercontent.com/201949/godot-local-notification-android/master/godot-local-notification-android.jpg)
+
 ## API
 
 ### showLocalNotification(message: String, title: String, interval: float, tag: int, smallIconName: String, LargeIconName: String, summaryText: String, colorImage: String)
