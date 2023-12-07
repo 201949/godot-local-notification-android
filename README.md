@@ -18,9 +18,20 @@ There is nothing complicated. In your game code, simply call the desired functio
 The text of your notification. 
 For a more aesthetically pleasing notification, the long text was disabled.
 
-## An example of displaying different types of notifications using the plugin:
+## Check out the demo project below:
+### An example of displaying different types of notifications using the plugin
 
 ![image](https://raw.githubusercontent.com/201949/godot-local-notification-android/master/godot-local-notification-android.jpg)
+
+### Example Wrapper for modified functions
+
+![image](https://raw.githubusercontent.com/201949/godot-local-notification-android/master/godot-local-notification-android-wrapper-functions.jpg)
+
+### Example of client callbacks
+
+![image](https://raw.githubusercontent.com/201949/godot-local-notification-android/master/godot-local-notification-android-client-callbacks.jpg)
+
+![image](https://raw.githubusercontent.com/201949/godot-local-notification-android/master/godot-local-notification-android-client-ui.jpg)
 
 ## API
 
